@@ -1,7 +1,7 @@
 # CURA-Healthcare-Project
+![logo](https://github.com/user-attachments/assets/ed5fd586-bc0f-4757-9644-7b0812ec6a77)
 
-
-The Project is to build a system that can automatically test the major functionalities of the SpiceJet Flight ticket booking website. I have used Data-Driven testing for testing Sign In functionality with the Data provider and also it covers the main features of One trip and Round trip as well.
+The Project is to build a system that can automatically test the major functionalities of the CURA Healthcare service. I have used Data-Driven testing for testing Login functionality with the Data provider and also it covers the main features of Medicare and Medicaid program as well.
 
 ## Coding Style:
 - I have used Java Programming language with POM(Page Object Model) design pattern with Selenium framework in this project.
@@ -11,7 +11,7 @@ The Project is to build a system that can automatically test the major functiona
 - Language: Java
 ## Technology/Frameworks used:
 - TestNG framework - Used for various purposes like Data provider and the prioritization of tests and suites.
-- Extent reports library - Used for the detailed reporting of the test cases status with various information     like screenshots.
+- Extent reports library - Used for the detailed reporting of the test cases status with various information like screenshots.
 - Maven project - For the ease of handling the dependencies in one place.
 - Selenium Java library - Selenium provides support for the automation of web browsers. It provides extensions to emulate user interaction with browsers, a distribution server for scaling browser allocation, and the infrastructure for implementations of the W3C WebDriver specification.
 - Apache POI library- For the reading and writing the data in an Excel sheet.
