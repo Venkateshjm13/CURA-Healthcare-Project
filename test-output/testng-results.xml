@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T07:56:12 IST" name="Suite" finished-at="2024-07-25T07:57:26 IST" duration-ms="74023">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T07:56:12 IST" name="Test" finished-at="2024-07-25T07:57:26 IST" duration-ms="74023">
+      <class name="testcases.TC002_ValidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC002_ValidLoginTest@e3b3b2f]" started-at="2024-07-25T07:56:12 IST" name="setup" finished-at="2024-07-25T07:56:12 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_ValidLoginTest@e3b3b2f]" started-at="2024-07-25T07:56:22 IST" name="browserLaunch" finished-at="2024-07-25T07:56:27 IST" duration-ms="5078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="ValidLoginCredential(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_ValidLoginTest@e3b3b2f]" started-at="2024-07-25T07:56:27 IST" name="ValidLoginCredential" data-provider="getData" finished-at="2024-07-25T07:56:29 IST" duration-ms="2421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC002_ValidLoginTest@e3b3b2f]" started-at="2024-07-25T07:56:29 IST" name="closeBrowser" finished-at="2024-07-25T07:56:29 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC002_ValidLoginTest -->
+      <class name="testcases.TC001_BrokenURLValidationTest">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_BrokenURLValidationTest@1e4f4a5c]" started-at="2024-07-25T07:56:12 IST" name="browserLaunch" finished-at="2024-07-25T07:56:18 IST" duration-ms="5734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="BrokenURLValidation(java.lang.String)[pri:0, instance:testcases.TC001_BrokenURLValidationTest@1e4f4a5c]" started-at="2024-07-25T07:56:18 IST" name="BrokenURLValidation" finished-at="2024-07-25T07:56:20 IST" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrokenURLValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC001_BrokenURLValidationTest@1e4f4a5c]" started-at="2024-07-25T07:56:20 IST" name="closeBrowser" finished-at="2024-07-25T07:56:20 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001_BrokenURLValidationTest -->
+      <class name="testcases.TC004_MedicareTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC004_MedicareTest@6cc4cdb9]" started-at="2024-07-25T07:56:12 IST" name="setup" finished-at="2024-07-25T07:56:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_MedicareTest@6cc4cdb9]" started-at="2024-07-25T07:57:00 IST" name="browserLaunch" finished-at="2024-07-25T07:57:05 IST" duration-ms="4803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="MedicareProgramValidation(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_MedicareTest@6cc4cdb9]" started-at="2024-07-25T07:57:05 IST" name="MedicareProgramValidation" data-provider="getData" finished-at="2024-07-25T07:57:13 IST" duration-ms="7771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicareProgramValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC004_MedicareTest@6cc4cdb9]" started-at="2024-07-25T07:57:13 IST" name="closeBrowser" finished-at="2024-07-25T07:57:13 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC004_MedicareTest -->
+      <class name="testcases.TC005_MedicaidTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC005_MedicaidTest@28194a50]" started-at="2024-07-25T07:56:12 IST" name="setup" finished-at="2024-07-25T07:56:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_MedicaidTest@28194a50]" started-at="2024-07-25T07:57:13 IST" name="browserLaunch" finished-at="2024-07-25T07:57:18 IST" duration-ms="5033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="MedicaidProgramValidation(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_MedicaidTest@28194a50]" started-at="2024-07-25T07:57:18 IST" name="MedicaidProgramValidation" data-provider="getData" finished-at="2024-07-25T07:57:26 IST" duration-ms="7874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicaidProgramValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC005_MedicaidTest@28194a50]" started-at="2024-07-25T07:57:26 IST" name="closeBrowser" finished-at="2024-07-25T07:57:26 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC005_MedicaidTest -->
+      <class name="testcases.TC003_InvalidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:12 IST" name="setup" finished-at="2024-07-25T07:56:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:30 IST" name="browserLaunch" finished-at="2024-07-25T07:56:34 IST" duration-ms="4857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="InvalidLoginCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:34 IST" name="InvalidLoginCredential" data-provider="getData" finished-at="2024-07-25T07:56:37 IST" duration-ms="2326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:37 IST" name="closeBrowser" finished-at="2024-07-25T07:56:37 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:37 IST" name="browserLaunch" finished-at="2024-07-25T07:56:42 IST" duration-ms="4875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="InvalidLoginCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:42 IST" name="InvalidLoginCredential" data-provider="getData" finished-at="2024-07-25T07:56:44 IST" duration-ms="2416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:44 IST" name="closeBrowser" finished-at="2024-07-25T07:56:45 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:45 IST" name="browserLaunch" finished-at="2024-07-25T07:56:50 IST" duration-ms="4896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="InvalidLoginCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:50 IST" name="InvalidLoginCredential" data-provider="getData" finished-at="2024-07-25T07:56:52 IST" duration-ms="2325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:52 IST" name="closeBrowser" finished-at="2024-07-25T07:56:52 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:52 IST" name="browserLaunch" finished-at="2024-07-25T07:56:57 IST" duration-ms="4959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="InvalidLoginCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:56:57 IST" name="InvalidLoginCredential" data-provider="getData" finished-at="2024-07-25T07:57:00 IST" duration-ms="2430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC003_InvalidLoginTest@50f6ac94]" started-at="2024-07-25T07:57:00 IST" name="closeBrowser" finished-at="2024-07-25T07:57:00 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC003_InvalidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
