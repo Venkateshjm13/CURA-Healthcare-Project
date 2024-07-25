@@ -29,10 +29,10 @@ The Project is to build a system that can automatically test the major functiona
 - Step 7: Run the project a testNG suite.
 
 ## Dependencies screenshot:
-<p align="Left"><img src="Images/Dependencies1.png" alt="screenshot" width="600"></p>
-<p align="Left"><img src="Images/Dependencies2.png" alt="screenshot" width="600"></p>
-<p align="Left"><img src="Images/Dependencies3.png" alt="screenshot" width="600"></p>
-<p align="Left"><img src="Images/Dependencies4.png" alt="screenshot" width="600"></p>
+![POM1](https://github.com/user-attachments/assets/61fc9a60-f0d2-485e-9da4-5f5004475ce4)
+![POM2](https://github.com/user-attachments/assets/7a80a4cb-0987-4974-9d8c-d36f5680cf04)
+![POM3](https://github.com/user-attachments/assets/ab7da366-62c8-413e-b211-3fbd77189b17)
+![POM4](https://github.com/user-attachments/assets/cdf40980-4482-4e29-b941-0e42cd606956)
 
 ## POM file screenshot:
 ![POM](https://github.com/user-attachments/assets/7398ef1f-cb98-4b39-9394-fa52f284c29a)
@@ -46,12 +46,9 @@ The Project is to build a system that can automatically test the major functiona
 
 ## Test Scenarios covered:
 - Checked Given URL is broken or not
-- Field validation on the home page 
-- Bottom Links are displayed properly 
 - Login scenarios(Positive and Negative)
-- SignUp scenarios(Positive and Negative)
-- One-Way trip scenario
-- Round trip scenario 
+- Medicare scenario
+- Medicaid scenario 
 
 ## Maven output Build success screenshot:
  
