@@ -35,7 +35,7 @@ The Project is to build a system that can automatically test the major functiona
 <p align="Left"><img src="Images/Dependencies4.png" alt="screenshot" width="600"></p>
 
 ## POM file screenshot:
-![POM Structure](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/2c0855ba-e8d4-471d-be82-1d03a55d30f2)
+![POM](https://github.com/user-attachments/assets/7398ef1f-cb98-4b39-9394-fa52f284c29a)
 
 
 ## Test case Code Example:
@@ -55,13 +55,15 @@ The Project is to build a system that can automatically test the major functiona
 
 ## Maven output Build success screenshot:
  
-![Maven_output](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/f9eb93f6-b8e5-4a00-af47-1429e2749848)
+![Maven Build success output](https://github.com/user-attachments/assets/6d8f081a-d1c7-405b-b638-f1592868cb4e)
 
 ## Jenkins output Build success screenshot:
-![Jenkins_output](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/5d16856f-78b0-4c4a-8935-1e3f6f1d4f62)
+![Jenkins Build success output](https://github.com/user-attachments/assets/0012fe5b-5b50-4275-a999-ead603bb0a01) 
 
 ## Extent report screenshots:
-<p align="Left"><img src="Images/Extentreport1.png" alt="screenshot" width="600"></p>
-<p align="Left"><img src="Images/Extentreport2.png" alt="screenshot" width="600"></p>
+![Extentreport1](https://github.com/user-attachments/assets/50a26e76-22cf-48a8-9ada-ab4cb62e646c)
+![Extentreport2](https://github.com/user-attachments/assets/2d79ad7a-81ee-4087-9b88-bcc0a6125103)
+![Extentreport3](https://github.com/user-attachments/assets/320e717b-a0c2-490b-97d8-b91a341d5c94)
+
 ## People who worked on this project
 ```Venkatesh JM```
